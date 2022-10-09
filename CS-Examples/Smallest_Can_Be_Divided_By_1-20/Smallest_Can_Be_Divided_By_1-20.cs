@@ -1,4 +1,4 @@
-﻿namespace dnm
+﻿namespace Smallest_Can_Be_Divided_By_1_20
 {
     internal class Program
     {
