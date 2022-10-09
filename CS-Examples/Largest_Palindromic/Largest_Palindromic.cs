@@ -11,7 +11,7 @@
                 for (int y = 999; y >= 100; y--)    //
                 {
                     num = x * y;
-                    if (palincont(num))
+                    if (Palincont(num))
                     {
                         Console.WriteLine("3 basamakli 2 sayinin carpimindan olusan en buyuk palindromik sayi = {0} = {1} x {2}", num, x , y);
                         return;
@@ -19,7 +19,7 @@
                 }
             }
         }
-        public static int bsmk(int num) //bu metod parametre olarak girilen sayinin basamak sayisini donduruyor
+        public static int Bsmk(int num) //bu metod parametre olarak girilen sayinin basamak sayisini donduruyor
         {
             int dig = 0;
             while (num != 0)
@@ -29,9 +29,9 @@
             }
             return dig;
         }
-        public static bool palincont(int num) //bu metod parametre olarak verilen sayinin palindromik olup olmadigini kontrol ediyor
+        public static bool Palincont(int num) //bu metod parametre olarak verilen sayinin palindromik olup olmadigini kontrol ediyor
         {
-            int size = bsmk(num), i = 0;
+            int size = Bsmk(num), i = 0;
             string nb = num.ToString();
 
             while (i < size)
