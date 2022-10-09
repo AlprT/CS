@@ -1,4 +1,4 @@
-﻿namespace dnm
+﻿namespace Largest_Palindromic
 {
     internal class Program
     {
