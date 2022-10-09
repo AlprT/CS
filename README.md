@@ -1,2 +1,2 @@
 # CS
-CS calismalaro
+CS calismalarim
